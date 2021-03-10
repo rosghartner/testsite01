@@ -1,0 +1,64 @@
+{% extends 'main/base.html'%}
+
+{% block title %}
+Страница про нас
+{% endblock %}
+
+{% block content %}
+    <h1>Страница о нас1</h1>
+    <p>учись давай</p>
+    <hr>
+
+    <h1> Заголовок Ш1</h1>
+		<h2>Заголовок Ш2</h2>
+		<h3>Заголовок Ш3</h3>
+		<h4>Заголовок Ш4</h4>
+		<h5>Заголовок Ш5</h5>
+		<h6>Заголовок Ш6</h6>
+		<hr>
+		<p id="text_one">  текст еба </p>
+		<p> перенос <br> строки </p>
+		<p><b> жирный текст</b></p>
+		<p><em>Курсив</em></p>
+		<hr>
+		<a href="https://www.youtube.com/watch?v=4jYYHaTwWvY&ab_channel=DKA-DEVELOP"> ссылка на этот урок</a>
+		<br>
+		<ul>
+			<li>первый элемент списка</li>
+			<li>второй </li>
+			<li> <a href="https://coop-land.ru/">Ссылка на сайт</a> который скатился</li>
+		</ul>
+		<hr>
+		<table border=1>
+			<thead>
+				<tr>
+					<th> название жирное</th>
+					<th> количество</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td> вещь 1</td>
+					<td> 2</td>
+				</tr>
+				<tr>
+					<td>вещь 2</td>
+					<td> 3</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr> 
+					<td colspan="2"> Итог кто бы мог блять подумать: 9</td>
+				</tr>
+			</tfoot>
+		</table>
+		<hr>
+		<img src="https://memepedia.ru/wp-content/uploads/2017/04/%D0%B5%D0%B1%D0%B0%D1%82%D1%8C-%D1%82%D1%8B-%D0%BB%D0%BE%D1%85-%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB.jpg" alt="">
+		<img src="https://memepedia.ru/wp-content/uploads/2017/04/%D0%B5%D0%B1%D0%B0%D1%82%D1%8C-%D1%82%D1%8B-%D0%BB%D0%BE%D1%85-%D0%BE%D1%80%D0%B8%D0%B3%D0%B8%D0%BD%D0%B0%D0%BB.jpg" height="150">
+		<br>
+		<input type="text" name="ebat"> <br>
+		<input type="number"> <br>
+		<input type="month">
+		<hr>
+		<a href="#text_one">якорь на параграф текст1</a>
+{% endblock %}
